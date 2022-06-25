@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;    
+}
+
+li {
+    list-style: none;
+    display: inline-flex;
+    padding: 30px;
+    text-decoration:overline;
+}
+a {
+    text-decoration: none;
+    color: rgb(14, 13, 12);
+    
+
+}
+
+header ul li a:hover{
+    color: #c05745;
+    cursor: pointer;
+    transition: 300ms;
+
+}
+body {
+    background: url(./pexels-rebeca-gonçalves-1770310.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+#logo {
+    height: 180px;
+}
+
+p {
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(7, 7, 6);
+    font-style: inherit;
+    
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(0, 45, 56);
+}
+#arrow {
+    color: rgb(255, 186, 58);
+    font-size: 30px;
+    cursor: pointer;
+    animation: blink 1s steps(5,start) infinite;
+}
+
+@keyframes blink {
+    to{
+        visibility: hidden;
+    }
+}
+
+
+
+#links button{
+    background-color: aquamarine;
+    color: black;
+    border-color: aquamarine;
+    width: 25%;
+    border-radius: 10px;
+    transition: 300ms;
+
+}
+
+#links button:hover{
+    background-color: rgb(255, 186, 58);
+    border-color: rgb(255, 186, 58);
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+.form {
+    width: 40%;
+    margin: auto;
+}
+
+.form input{
+    width: 50%;
+    padding: 3px 6px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+
+}
+
+.form button  {
+    width: 15%;
+    padding: 3px 6px;
+    background: linear-gradient(to right, #c09717 50% , aquamarine 50% );
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: all 300ms ease-out;
+    border-radius: 0px 5px 5px 0px ;
+    margin-left: -4px;
+
+}
+
+.form button:hover{
+    background-position: left bottom;
+
+}
+
+
+
+    
+
+
+
+
+
+
+ 
